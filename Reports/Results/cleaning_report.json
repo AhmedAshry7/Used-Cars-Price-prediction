@@ -1,0 +1,176 @@
+{
+    "logs": [
+        {
+            "timestamp": "2026-04-27 16:03:22",
+            "check_type": "Inconsistency Cleaning",
+            "column_affected": "cylinders",
+            "log": [
+                "Cylinders column cleaned of inconsistencies."
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:03:23",
+            "check_type": "Data Type Validation",
+            "column_affected": "All",
+            "log": [
+                "Columns casted to expected types."
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:04:46",
+            "check_type": "Outlier Capping",
+            "column_affected": "price",
+            "log": [
+                "Capped price at upper bound: 39050.00"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:06:11",
+            "check_type": "Outlier Capping",
+            "column_affected": "odometer",
+            "log": [
+                "Capped odometer at upper bound: 272410.00"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:07:07",
+            "check_type": "Outlier Capping",
+            "column_affected": "lat",
+            "log": [
+                "Capped lat at lower bound: 23.31"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:07:35",
+            "check_type": "Outlier Capping",
+            "column_affected": "lat",
+            "log": [
+                "Capped lat at upper bound: 53.83"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:08:31",
+            "check_type": "Outlier Capping",
+            "column_affected": "long",
+            "log": [
+                "Capped long at lower bound: -145.32"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:08:59",
+            "check_type": "Outlier Capping",
+            "column_affected": "long",
+            "log": [
+                "Capped long at upper bound: -42.31"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:09:28",
+            "check_type": "Null Removal",
+            "column_affected": "year",
+            "log": [
+                "Removed 1440 rows with NULLs in year"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:09:57",
+            "check_type": "Null Removal",
+            "column_affected": "title_status",
+            "log": [
+                "Removed 2524 rows with NULLs in title_status"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:10:26",
+            "check_type": "Null Removal",
+            "column_affected": "transmission",
+            "log": [
+                "Removed 18367 rows with NULLs in transmission"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:10:39",
+            "check_type": "Null Removal",
+            "column_affected": "lat",
+            "log": [
+                "Removed 11318 rows with NULLs in lat"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:09",
+            "check_type": "Value Imputation",
+            "column_affected": "manufacturer",
+            "log": [
+                "Replaced 21050 rows (null/empty/other) with 'Unknown' in manufacturer"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:17",
+            "check_type": "Value Imputation",
+            "column_affected": "condition",
+            "log": [
+                "Replaced 225385 rows (null/empty/other) with 'Unknown' in condition"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:24",
+            "check_type": "Value Imputation",
+            "column_affected": "fuel",
+            "log": [
+                "Replaced 16130 rows (null/empty/other) with 'Unknown' in fuel"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:32",
+            "check_type": "Value Imputation",
+            "column_affected": "type",
+            "log": [
+                "Replaced 154027 rows (null/empty/other) with 'Unknown' in type"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:40",
+            "check_type": "Value Imputation",
+            "column_affected": "drive",
+            "log": [
+                "Replaced 140970 rows (null/empty/other) with 'Unknown' in drive"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:48",
+            "check_type": "Numerical Imputation",
+            "column_affected": "cylinders_numeric",
+            "log": [
+                "Filled missing values with median: 6.0"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:11:55",
+            "check_type": "Numerical Imputation",
+            "column_affected": "odometer",
+            "log": [
+                "Filled missing values with median: 95868.0"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 16:12:03",
+            "check_type": "Target Column Cleaning",
+            "column_affected": "price",
+            "log": [
+                "Dropped 41383 rows with invalid price (NULL or <= 0)"
+            ]
+        }
+    ],
+    "beforedata": {
+        "total_rows": 525839,
+        "total_columns": 22,
+        "memory_usage": "1437.90 MB",
+        "scan_time": "2026-04-27 16:02:40"
+    },
+    "afterdata": {
+        "total_rows": 450807,
+        "total_columns": 15,
+        "memory_usage": "731.79 MB",
+        "scan_time": "2026-04-27 16:12:27"
+    }
+}

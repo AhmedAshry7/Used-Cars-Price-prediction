@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "total_rows": 525839,
+        "total_columns": 22,
+        "scan_time": "2026-04-27 13:56:33"
+    },
+    "results": [
+        {
+            "timestamp": "2026-04-27 13:57:32",
+            "check_type": "Completeness",
+            "passed": false,
+            "issues": [
+                "Column 'year': 0.27% missing",
+                "Column 'manufacturer': 4.67% missing",
+                "Column 'make': 1.64% missing",
+                "Column 'condition': 46.77% missing",
+                "Column 'cylinders': 40.01% missing",
+                "Column 'fuel': 0.82% missing",
+                "Column 'odometer': 18.75% missing",
+                "Column 'title_status': 0.54% missing",
+                "Column 'transmission': 0.81% missing",
+                "Column 'VIN': 41.86% missing",
+                "Column 'drive': 28.79% missing",
+                "Column 'size': 66.81% missing",
+                "Column 'type': 28.32% missing",
+                "Column 'paint_color': 32.62% missing",
+                "Column 'image_url': 0.00% missing",
+                "Column 'desc': 0.00% missing",
+                "Column 'lat': 2.32% missing",
+                "Column 'long': 2.32% missing"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 14:04:03",
+            "check_type": "Schema & Types",
+            "passed": true,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-27 14:07:39",
+            "check_type": "Accuracy",
+            "passed": false,
+            "issues": [
+                "48318 rows, (9.19%) have price <= 0"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 14:13:43",
+            "check_type": "Outliers",
+            "passed": false,
+            "issues": [
+                "16304 outliers in price (3.10%)",
+                "4408 outliers in odometer (0.84%)",
+                "7204 outliers in lat (1.37%)",
+                "6883 outliers in long (1.31%)"
+            ]
+        },
+        {
+            "timestamp": "2026-04-27 14:19:30",
+            "check_type": "Timeleness",
+            "passed": true,
+            "issues": []
+        }
+    ]
+}
