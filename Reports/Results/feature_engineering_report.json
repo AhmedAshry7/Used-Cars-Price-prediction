@@ -1,0 +1,108 @@
+{
+    "logs": [
+        {
+            "timestamp": "2026-04-28 14:59:26",
+            "step": "Encoding",
+            "column_affected/created": "condition_rank",
+            "log": [
+                "Ordinal encoding applied on condition"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:26",
+            "step": "Encoding",
+            "column_affected/created": "title_status_rank",
+            "log": [
+                "Ordinal encoding applied on title_status"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:26",
+            "step": "Feature Interaction",
+            "column_affected/created": "car_age",
+            "log": [
+                "Created car_age from year, car_age = 2026 - year"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:27",
+            "step": "Binning and Encoding",
+            "column_affected/created": "car_age_bin",
+            "log": [
+                "discretization and encoding applied on car_age"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:27",
+            "step": "Binning and Encoding",
+            "column_affected/created": "odometer_bin",
+            "log": [
+                "discretization and encoding applied on odometer"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:27",
+            "step": "Encoding",
+            "column_affected/created": "fuel_ohe",
+            "log": [
+                "One hot encoding applied on fuel"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:27",
+            "step": "Encoding",
+            "column_affected/created": "drive_ohe",
+            "log": [
+                "One hot encoding applied on drive"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:27",
+            "step": "Encoding",
+            "column_affected/created": "transmission_ohe",
+            "log": [
+                "One hot encoding applied on transmission"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:28",
+            "step": "Encoding",
+            "column_affected/created": "manufacturer_bits",
+            "log": [
+                "Binary encoding applied on manufacturer"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:28",
+            "step": "Encoding",
+            "column_affected/created": "type_bits",
+            "log": [
+                "Binary encoding applied on type"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:29",
+            "step": "Expanding",
+            "column_affected/created": "fuel_ohe",
+            "log": [
+                "Expanding one hot encoding column of fuel_ohe"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:29",
+            "step": "Expanding",
+            "column_affected/created": "transmission_ohe",
+            "log": [
+                "Expanding one hot encoding column of transmission_ohe"
+            ]
+        },
+        {
+            "timestamp": "2026-04-28 14:59:29",
+            "step": "Expanding",
+            "column_affected/created": "drive_ohe",
+            "log": [
+                "Expanding one hot encoding column of drive_ohe"
+            ]
+        }
+    ]
+}
