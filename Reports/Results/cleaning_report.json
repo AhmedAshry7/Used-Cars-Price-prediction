@@ -1,176 +1,84 @@
 {
     "logs": [
         {
-            "timestamp": "2026-04-27 21:47:42",
-            "check_type": "Inconsistency Cleaning",
-            "column_affected": "cylinders",
+            "timestamp": "2026-04-28 08:46:27",
+            "step": "Encoding",
+            "column_affected/created": "condition_rank",
             "log": [
-                "Cylinders column cleaned of inconsistencies."
+                "Ordinal encoding applied on condition"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:47:43",
-            "check_type": "Data Type Validation",
-            "column_affected": "All",
+            "timestamp": "2026-04-28 08:46:27",
+            "step": "Encoding",
+            "column_affected/created": "title_status_rank",
             "log": [
-                "Columns casted to expected types."
+                "Ordinal encoding applied on title_status"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:47:59",
-            "check_type": "Outlier Capping",
-            "column_affected": "price",
+            "timestamp": "2026-04-28 08:46:27",
+            "step": "Feature Interaction",
+            "column_affected/created": "car_age",
             "log": [
-                "Capped price at upper bound: 39050.00"
+                "Created car_age from year, car_age = 2026 - year"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:15",
-            "check_type": "Outlier Capping",
-            "column_affected": "odometer",
+            "timestamp": "2026-04-28 08:46:29",
+            "step": "Binning and Encoding",
+            "column_affected/created": "car_age_bin",
             "log": [
-                "Capped odometer at upper bound: 272410.00"
+                "discretization and encoding applied on car_age"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:25",
-            "check_type": "Outlier Capping",
-            "column_affected": "lat",
+            "timestamp": "2026-04-28 08:46:29",
+            "step": "Binning and Encoding",
+            "column_affected/created": "odometer_bin",
             "log": [
-                "Capped lat at lower bound: 23.31"
+                "discretization and encoding applied on odometer"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:30",
-            "check_type": "Outlier Capping",
-            "column_affected": "lat",
+            "timestamp": "2026-04-28 08:46:35",
+            "step": "Encoding",
+            "column_affected/created": "fuel_ohe",
             "log": [
-                "Capped lat at upper bound: 53.83"
+                "One hot encoding applied on fuel"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:41",
-            "check_type": "Outlier Capping",
-            "column_affected": "long",
+            "timestamp": "2026-04-28 08:46:37",
+            "step": "Encoding",
+            "column_affected/created": "drive_ohe",
             "log": [
-                "Capped long at lower bound: -145.32"
+                "One hot encoding applied on drive"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:46",
-            "check_type": "Outlier Capping",
-            "column_affected": "long",
+            "timestamp": "2026-04-28 08:46:38",
+            "step": "Encoding",
+            "column_affected/created": "transmission_ohe",
             "log": [
-                "Capped long at upper bound: -42.31"
+                "One hot encoding applied on transmission"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:48:58",
-            "check_type": "Null Removal",
-            "column_affected": "year",
+            "timestamp": "2026-04-28 08:46:41",
+            "step": "Encoding",
+            "column_affected/created": "manufacturer_bits",
             "log": [
-                "Removed 1440 rows with NULLs in year"
+                "Binary encoding applied on manufacturer"
             ]
         },
         {
-            "timestamp": "2026-04-27 21:49:11",
-            "check_type": "Null Removal",
-            "column_affected": "title_status",
+            "timestamp": "2026-04-28 08:46:43",
+            "step": "Encoding",
+            "column_affected/created": "type_bits",
             "log": [
-                "Removed 2524 rows with NULLs in title_status"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:49:24",
-            "check_type": "Null Removal",
-            "column_affected": "transmission",
-            "log": [
-                "Removed 18367 rows with NULLs in transmission"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:49:38",
-            "check_type": "Null Removal",
-            "column_affected": "lat",
-            "log": [
-                "Removed 11318 rows with NULLs in lat"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:49:59",
-            "check_type": "Value Imputation",
-            "column_affected": "manufacturer",
-            "log": [
-                "Replaced 21050 rows (null/empty/other) with 'Unknown' in manufacturer"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:05",
-            "check_type": "Value Imputation",
-            "column_affected": "condition",
-            "log": [
-                "Replaced 225385 rows (null/empty/other) with 'Unknown' in condition"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:10",
-            "check_type": "Value Imputation",
-            "column_affected": "fuel",
-            "log": [
-                "Replaced 16130 rows (null/empty/other) with 'Unknown' in fuel"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:15",
-            "check_type": "Value Imputation",
-            "column_affected": "type",
-            "log": [
-                "Replaced 154027 rows (null/empty/other) with 'Unknown' in type"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:21",
-            "check_type": "Value Imputation",
-            "column_affected": "drive",
-            "log": [
-                "Replaced 140970 rows (null/empty/other) with 'Unknown' in drive"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:26",
-            "check_type": "Numerical Imputation",
-            "column_affected": "cylinders_numeric",
-            "log": [
-                "Filled missing values with median: 6.0"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:32",
-            "check_type": "Numerical Imputation",
-            "column_affected": "odometer",
-            "log": [
-                "Filled missing values with median: 95868.0"
-            ]
-        },
-        {
-            "timestamp": "2026-04-27 21:50:59",
-            "check_type": "Target Column Cleaning",
-            "column_affected": "price",
-            "log": [
-                "Dropped 41383 rows with invalid price (NULL or <= 0)"
+                "Binary encoding applied on type"
             ]
         }
-    ],
-    "beforedata": {
-        "total_rows": 525839,
-        "total_columns": 22,
-        "memory_usage": "1437.90 MB",
-        "scan_time": "2026-04-27 21:47:26"
-    },
-    "afterdata": {
-        "total_rows": 450807,
-        "total_columns": 15,
-        "memory_usage": "731.79 MB",
-        "scan_time": "2026-04-27 21:52:07"
-    }
+    ]
 }

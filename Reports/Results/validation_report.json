@@ -2,11 +2,11 @@
     "metadata": {
         "total_rows": 525839,
         "total_columns": 22,
-        "scan_time": "2026-04-27 13:56:33"
+        "scan_time": "2026-04-28 07:46:49"
     },
     "results": [
         {
-            "timestamp": "2026-04-27 13:57:32",
+            "timestamp": "2026-04-28 07:47:02",
             "check_type": "Completeness",
             "passed": false,
             "issues": [
@@ -31,13 +31,13 @@
             ]
         },
         {
-            "timestamp": "2026-04-27 14:04:03",
+            "timestamp": "2026-04-28 07:47:07",
             "check_type": "Schema & Types",
             "passed": true,
             "issues": []
         },
         {
-            "timestamp": "2026-04-27 14:07:39",
+            "timestamp": "2026-04-28 07:48:44",
             "check_type": "Accuracy",
             "passed": false,
             "issues": [
@@ -45,7 +45,13 @@
             ]
         },
         {
-            "timestamp": "2026-04-27 14:13:43",
+            "timestamp": "2026-04-28 07:48:53",
+            "check_type": "Timeleness",
+            "passed": true,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-28 07:50:38",
             "check_type": "Outliers",
             "passed": false,
             "issues": [
@@ -54,12 +60,6 @@
                 "7204 outliers in lat (1.37%)",
                 "6883 outliers in long (1.31%)"
             ]
-        },
-        {
-            "timestamp": "2026-04-27 14:19:30",
-            "check_type": "Timeleness",
-            "passed": true,
-            "issues": []
         }
     ]
 }

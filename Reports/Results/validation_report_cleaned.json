@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "total_rows": 450807,
+        "total_columns": 15,
+        "scan_time": "2026-04-28 07:51:18"
+    },
+    "results": [
+        {
+            "timestamp": "2026-04-28 07:51:18",
+            "check_type": "Completeness",
+            "passed": true,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-28 07:51:18",
+            "check_type": "Schema & Types",
+            "passed": false,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-28 07:51:19",
+            "check_type": "Accuracy",
+            "passed": true,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-28 07:51:19",
+            "check_type": "Timeleness",
+            "passed": true,
+            "issues": []
+        },
+        {
+            "timestamp": "2026-04-28 07:53:25",
+            "check_type": "Outliers",
+            "passed": false,
+            "issues": [
+                "17946 outliers in price (3.98%)",
+                "12942 outliers in odometer (2.87%)",
+                "6316 outliers in lat (1.40%)",
+                "6004 outliers in long (1.33%)"
+            ]
+        }
+    ]
+}
