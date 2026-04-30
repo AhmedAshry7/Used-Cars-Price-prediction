@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "timestamp": "2026-04-28 14:59:26",
+            "timestamp": "2026-04-29 18:23:32",
             "step": "Encoding",
             "column_affected/created": "condition_rank",
             "log": [
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:26",
+            "timestamp": "2026-04-29 18:23:32",
             "step": "Encoding",
             "column_affected/created": "title_status_rank",
             "log": [
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:26",
+            "timestamp": "2026-04-29 18:23:32",
             "step": "Feature Interaction",
             "column_affected/created": "car_age",
             "log": [
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:27",
+            "timestamp": "2026-04-29 18:23:34",
             "step": "Binning and Encoding",
             "column_affected/created": "car_age_bin",
             "log": [
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:27",
+            "timestamp": "2026-04-29 18:23:34",
             "step": "Binning and Encoding",
             "column_affected/created": "odometer_bin",
             "log": [
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:27",
+            "timestamp": "2026-04-29 18:23:37",
             "step": "Encoding",
             "column_affected/created": "fuel_ohe",
             "log": [
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:27",
+            "timestamp": "2026-04-29 18:23:37",
             "step": "Encoding",
             "column_affected/created": "drive_ohe",
             "log": [
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:27",
+            "timestamp": "2026-04-29 18:23:38",
             "step": "Encoding",
             "column_affected/created": "transmission_ohe",
             "log": [
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:28",
+            "timestamp": "2026-04-29 18:23:39",
             "step": "Encoding",
             "column_affected/created": "manufacturer_bits",
             "log": [
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:28",
+            "timestamp": "2026-04-29 18:23:40",
             "step": "Encoding",
             "column_affected/created": "type_bits",
             "log": [
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:29",
+            "timestamp": "2026-04-29 18:23:41",
             "step": "Expanding",
             "column_affected/created": "fuel_ohe",
             "log": [
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:29",
+            "timestamp": "2026-04-29 18:23:41",
             "step": "Expanding",
             "column_affected/created": "transmission_ohe",
             "log": [
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 14:59:29",
+            "timestamp": "2026-04-29 18:23:41",
             "step": "Expanding",
             "column_affected/created": "drive_ohe",
             "log": [
