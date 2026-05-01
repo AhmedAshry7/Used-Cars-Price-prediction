@@ -2,11 +2,11 @@
     "metadata": {
         "total_rows": 525839,
         "total_columns": 22,
-        "scan_time": "2026-04-28 07:46:49"
+        "scan_time": "2026-05-01 20:57:17"
     },
     "results": [
         {
-            "timestamp": "2026-04-28 07:47:02",
+            "timestamp": "2026-05-01 20:57:30",
             "check_type": "Completeness",
             "passed": false,
             "issues": [
@@ -31,27 +31,27 @@
             ]
         },
         {
-            "timestamp": "2026-04-28 07:47:07",
+            "timestamp": "2026-05-01 20:57:36",
             "check_type": "Schema & Types",
             "passed": true,
             "issues": []
         },
         {
-            "timestamp": "2026-04-28 07:48:44",
+            "timestamp": "2026-05-01 20:59:19",
             "check_type": "Accuracy",
             "passed": false,
             "issues": [
-                "48318 rows, (9.19%) have price <= 0"
+                "85418 rows, (16.24%) have price <= 2000"
             ]
         },
         {
-            "timestamp": "2026-04-28 07:48:53",
+            "timestamp": "2026-05-01 20:59:29",
             "check_type": "Timeleness",
             "passed": true,
             "issues": []
         },
         {
-            "timestamp": "2026-04-28 07:50:38",
+            "timestamp": "2026-05-01 21:01:20",
             "check_type": "Outliers",
             "passed": false,
             "issues": [
